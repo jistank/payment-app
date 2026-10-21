@@ -34,7 +34,7 @@ public class User {
       Automatically sets the time when the row is inserted
           (Or it can be initialized inline: private LocalDateTime createdAt = LocalDateTime.now();)
      */
-    @CreationTimestamp
+    @CreationTimestamp                           // (Hibernate): Automatically sets the time when the row is inserted
     @Column(name = "created_at", updatable = false)
     private LocalDateTime createdAt;
 
@@ -42,11 +42,11 @@ public class User {
       The text, URL data that the QR code represents
       It will be generated as image dynamically on the fly
      */
-    @Column(unique = true, name = "qr_receive")  // (JPA): Tells Spring that this field is named "qr_receive" in the database
+    @Column(unique = true, name = "qr_receive")  // (JPA): Tells Spring that this field is named "qr_receive" in the database, and is unique
     private String qrReceive;
-    @Column(unique = true, name = "qr_pay")      // (JPA): Tells Spring that this field is named "qr_pay" in the database
+    @Column(unique = true, name = "qr_pay")      // (JPA): Tells Spring that this field is named "qr_pay" in the database, and is unique
     private String qrPay;
 
-    @Column(name = "business")    // (JPA): Tells Spring that this field is named "business" in the database
-    private boolean business;     // Indicates if the user is a business or not
+    @Column(nullable = false)                    // (JPA): Tells Spring that this field is named "business" in the database, and cannot be null
+    private boolean business;                    // Indicates if the user is a business or not
 }
