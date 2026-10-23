@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
-import org.springframework.data.annotation.Id;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
@@ -34,7 +33,7 @@ public class Transaction {
 
     @Enumerated(EnumType.STRING)                           // (JPA): Tells Spring that this field is an enum, and should be stored as a string in the database
     @Column(name = "transaction_status", nullable = false) // (JPA): Cannot be null, named "transaction_status" in the database, can't be null
-    private String transactionStatus;
+    private TransactionStatus transactionStatus;
 
     @CreationTimestamp                                     // (Hibernate): Automatically sets the time when the row is inserted
     @Column(name = "transaction_time",  updatable = false) // (JPA): name is "transaction_time" in the database, cannot be updated after the row is created
@@ -42,7 +41,7 @@ public class Transaction {
 
     @Enumerated(EnumType.STRING)                           // (JPA): Tells Spring that this field is an enum, and should be stored as a string in the database
     @Column(name = "transaction_type", nullable = false)   // (JPA): Tells Spring that this field cannot be null, is name is "transaction_type" in the database
-    private String transactionType;                        // (shopping, friend, donation, etc.)
+    private TransactionType transactionType;               // (shopping, friend, donation, etc.)
 
     @Column(nullable = false)                              // (JPA): Tells Spring that this field cannot be null
     private String method;                                 // (card)

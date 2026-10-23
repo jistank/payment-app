@@ -5,7 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
-import org.springframework.data.annotation.Id;
+
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Data                   // (Lombok): Makes getters, setters, toString(), equals(), and hashCode()
@@ -34,7 +35,7 @@ public class User {
       Automatically sets the time when the row is inserted
           (Or it can be initialized inline: private LocalDateTime createdAt = LocalDateTime.now();)
      */
-    @CreationTimestamp                           // (Hibernate): Automatically sets the time when the row is inserted
+    @CreationTimestamp                                 // (Hibernate): Automatically sets the time when the row is inserted
     @Column(name = "created_at", updatable = false)
     private LocalDateTime createdAt;
 
@@ -42,11 +43,14 @@ public class User {
       The text, URL data that the QR code represents
       It will be generated as image dynamically on the fly
      */
-    @Column(unique = true, name = "qr_receive")  // (JPA): Tells Spring that this field is named "qr_receive" in the database, and is unique
+    @Column(unique = true, name = "qr_receive")         // (JPA): Tells Spring that this field is named "qr_receive" in the database, and is unique
     private String qrReceive;
-    @Column(unique = true, name = "qr_pay")      // (JPA): Tells Spring that this field is named "qr_pay" in the database, and is unique
+    @Column(unique = true, name = "qr_pay")             // (JPA): Tells Spring that this field is named "qr_pay" in the database, and is unique
     private String qrPay;
 
-    @Column(nullable = false)                    // (JPA): Tells Spring that this field is named "business" in the database, and cannot be null
-    private boolean business;                    // Indicates if the user is a business or not
+    @Column(nullable = false)                            // (JPA): Tells Spring that this field is named "business" in the database, and cannot be null
+    private boolean business;                            // Indicates if the user is a business or not
+
+    @Column(nullable = false, precision = 19, scale = 4) // (JPA): Tells Spring that this field is a decimal with precision 19 and scale 4, and cannot be null
+    private BigDecimal balance = BigDecimal.ZERO;        // Initial balance is 0.00, BigDecimal is immutable, so we need to reassign the value when we update it
 }
