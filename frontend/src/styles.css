@@ -1,0 +1,227 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Fira Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+  --font-mono: 'Fira Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: var(--font-sans);
+  }
+}
+
+/*
+ * Dark theme is scoped to the authenticated app shell: AppLayout adds the
+ * `dark` class to its root container. Landing and auth screens never receive
+ * it, so their inputs and cards keep the light styling.
+ */
+.dark {
+  color-scheme: dark;
+  color: #e5e5e5;
+  background-color: #2f2f2f;
+}
+
+/* Neutral gray surfaces: no blue tint. */
+.dark .bg-white {
+  background-color: #3a3a3a;
+}
+
+.dark .bg-slate-50 {
+  background-color: #343434;
+}
+
+.dark .bg-slate-100 {
+  background-color: #3f3f3f;
+}
+
+.dark .bg-slate-200 {
+  background-color: #454545;
+}
+
+.dark .bg-slate-300 {
+  background-color: #555555;
+}
+
+/* Brand-tinted surfaces become neutral in dark mode. */
+.dark .bg-indigo-50 {
+  background-color: #3b3b3b;
+}
+
+.dark .bg-indigo-100 {
+  background-color: #4a4a4a;
+}
+
+.dark .bg-indigo-200 {
+  background-color: #525252;
+}
+
+/* Status surfaces keep a subtle tint but stay muted. */
+.dark .bg-red-50 {
+  background-color: #3d2626;
+}
+
+.dark .bg-red-100 {
+  background-color: #5a2a2a;
+}
+
+.dark .bg-green-50 {
+  background-color: #22362b;
+}
+
+.dark .bg-green-100 {
+  background-color: #294c37;
+}
+
+.dark .bg-amber-50 {
+  background-color: #3a2f1f;
+}
+
+.dark .bg-amber-100 {
+  background-color: #543d22;
+}
+
+/* Text */
+.dark .text-slate-900 {
+  color: #f5f5f5;
+}
+
+.dark .text-slate-800 {
+  color: #e5e5e5;
+}
+
+.dark .text-slate-700 {
+  color: #d4d4d4;
+}
+
+.dark .text-slate-600 {
+  color: #b0b0b0;
+}
+
+.dark .text-slate-500 {
+  color: #a3a3a3;
+}
+
+.dark .text-slate-400 {
+  color: #8a8a8a;
+}
+
+/* Accent text stays readable on gray. */
+.dark .text-indigo-700 {
+  color: #c7d2fe;
+}
+
+.dark .text-indigo-600 {
+  color: #a5b4fc;
+}
+
+.dark .text-red-700 {
+  color: #fca5a5;
+}
+
+.dark .text-red-600 {
+  color: #f87171;
+}
+
+.dark .text-green-700 {
+  color: #86efac;
+}
+
+.dark .text-green-600 {
+  color: #4ade80;
+}
+
+.dark .text-amber-700 {
+  color: #fcd34d;
+}
+
+.dark .text-amber-600 {
+  color: #fbbf24;
+}
+
+/* Borders */
+.dark .border-slate-100 {
+  border-color: #444444;
+}
+
+.dark .border-slate-200 {
+  border-color: #4a4a4a;
+}
+
+.dark .border-slate-300 {
+  border-color: #565656;
+}
+
+.dark .border-indigo-200 {
+  border-color: #5b5b5b;
+}
+
+.dark .border-red-200 {
+  border-color: #6b3030;
+}
+
+.dark .border-green-200 {
+  border-color: #2f5b3f;
+}
+
+.dark .border-amber-200 {
+  border-color: #6b5326;
+}
+
+.dark input,
+.dark textarea,
+.dark select {
+  color: #e5e5e5;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #8a8a8a;
+}
+
+/* Hover states stay neutral. */
+.dark .hover\:bg-slate-100:hover {
+  background-color: #404040;
+}
+
+.dark .hover\:bg-slate-200:hover {
+  background-color: #4a4a4a;
+}
+
+.dark .hover\:bg-slate-50:hover {
+  background-color: #3a3a3a;
+}
+
+.dark .hover\:bg-indigo-50:hover,
+.dark .hover\:bg-indigo-50\/40:hover,
+.dark .hover\:bg-indigo-50\/50:hover {
+  background-color: #404040;
+}
+
+.dark .hover\:bg-red-50:hover {
+  background-color: #3d2626;
+}
+
+.dark .hover\:bg-green-50:hover {
+  background-color: #22362b;
+}
+
+.dark .hover\:text-slate-900:hover {
+  color: #f5f5f5;
+}
+
+/* No glows, gradients or colored shadows in dark mode. */
+.dark [class*="shadow"] {
+  box-shadow: none !important;
+}
+
+.dark .bg-linear-to-br,
+.dark .bg-linear-to-r,
+.dark .bg-gradient-to-br,
+.dark .bg-gradient-to-r {
+  background-image: none !important;
+  background-color: #4f46e5;
+}

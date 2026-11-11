@@ -1,0 +1,165 @@
+{
+  "title": "Admin dashboard",
+  "subtitle": "Manage users, monitor activity and review every sensitive action.",
+  "refresh": "Refresh",
+  "tabs": {
+    "users": "Users",
+    "transactions": "Transactions",
+    "requests": "Payment requests",
+    "audit": "Audit log"
+  },
+  "stats": {
+    "title": "Statistics",
+    "totalUsers": "Registered users",
+    "activeUsers": "Active users",
+    "suspendedUsers": "Suspended users",
+    "totalTransactions": "Transactions",
+    "transactionVolume": "Transaction volume",
+    "topUpVolume": "Top-up volume",
+    "pendingRequests": "Pending requests",
+    "auditEvents": "Audit events"
+  },
+  "filters": {
+    "search": "Search",
+    "searchPlaceholder": "Nickname or email",
+    "status": "Status",
+    "type": "Type",
+    "action": "Action",
+    "all": "All"
+  },
+  "statuses": {
+    "ALL": "All",
+    "ACTIVE": "Active",
+    "SUSPENDED": "Suspended",
+    "PENDING": "Pending",
+    "PAID": "Paid",
+    "DECLINED": "Declined",
+    "COMPLETED": "Completed",
+    "FAILED": "Failed",
+    "REFUNDED": "Refunded"
+  },
+  "types": {
+    "ALL": "All",
+    "FRIEND_TRANSFER": "Friend transfer",
+    "SHOPPING": "Shopping",
+    "DONATION": "Donation",
+    "SUBSCRIPTION": "Subscription",
+    "TOP_UP": "Top up"
+  },
+  "roles": {
+    "USER": "User",
+    "ADMIN": "Admin"
+  },
+  "users": {
+    "title": "Users",
+    "count": "{{count}} users",
+    "empty": "No users match these filters.",
+    "balance": "Balance",
+    "joined": "Joined",
+    "paymentCode": "Payment code",
+    "paymentCodeYes": "Configured",
+    "paymentCodeNo": "Not configured",
+    "view": "View",
+    "suspend": "Suspend",
+    "reactivate": "Reactivate",
+    "delete": "Delete",
+    "topUp": "Top up",
+    "locked": "Admin accounts cannot be suspended or deleted.",
+    "errors": {
+      "load": "Unable to load users",
+      "suspend": "Unable to suspend this user",
+      "reactivate": "Unable to reactivate this user",
+      "delete": "Unable to delete this user"
+    }
+  },
+  "transactions": {
+    "title": "Transactions",
+    "count": "{{count}} transactions",
+    "empty": "No transactions match these filters.",
+    "sender": "Sender",
+    "receiver": "Receiver",
+    "amount": "Amount",
+    "method": "Method",
+    "date": "Date",
+    "errors": {
+      "load": "Unable to load transactions"
+    }
+  },
+  "requests": {
+    "title": "Payment requests",
+    "count": "{{count}} payment requests",
+    "empty": "No payment requests match these filters.",
+    "requester": "Requester",
+    "payer": "Payer",
+    "amount": "Amount",
+    "note": "Note",
+    "created": "Created",
+    "resolved": "Resolved",
+    "errors": {
+      "load": "Unable to load payment requests"
+    }
+  },
+  "audit": {
+    "title": "Audit log",
+    "count": "{{count}} audit events",
+    "empty": "No audit events match these filters.",
+    "actor": "Actor",
+    "action": "Action",
+    "target": "Target",
+    "details": "Details",
+    "date": "Date",
+    "actions": {
+      "ALL": "All actions",
+      "USER_SUSPENDED": "User suspended",
+      "USER_REACTIVATED": "User reactivated",
+      "USER_DELETED": "User deleted",
+      "MANUAL_TOP_UP": "Manual top-up"
+    },
+    "errors": {
+      "load": "Unable to load the audit log"
+    }
+  },
+  "confirm": {
+    "suspendTitle": "Suspend user",
+    "suspendDescription": "Suspend \"{{nickname}}\"? The account is logged out immediately and cannot sign in until reactivated.",
+    "reactivateTitle": "Reactivate user",
+    "reactivateDescription": "Reactivate \"{{nickname}}\"? The account will be able to sign in again.",
+    "deleteTitle": "Delete user",
+    "deleteDescription": "Delete \"{{nickname}}\" permanently? Contacts, pending requests and the account itself are removed. This cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "topUp": {
+    "title": "Manual top-up",
+    "description": "Credit \"{{nickname}}\"'s balance. The operation is recorded in the audit log.",
+    "amount": "Amount",
+    "amountPlaceholder": "0.00",
+    "note": "Note (optional)",
+    "notePlaceholder": "Reason for the top-up",
+    "submit": "Add to balance",
+    "success": "Top-up completed. New balance: {{balance}}.",
+    "errors": {
+      "amountInvalid": "Enter an amount greater than zero.",
+      "topUp": "Unable to complete the top-up"
+    }
+  },
+  "detail": {
+    "title": "User details",
+    "nickname": "Nickname",
+    "email": "Email",
+    "role": "Role",
+    "accountType": "Account type",
+    "business": "Business",
+    "personal": "Personal",
+    "balance": "Balance",
+    "paymentCode": "Payment code",
+    "status": "Status",
+    "createdAt": "Registered",
+    "close": "Close"
+  },
+  "common": {
+    "loading": "Loading...",
+    "notAvailable": "—",
+    "unknown": "Unknown"
+  }
+}

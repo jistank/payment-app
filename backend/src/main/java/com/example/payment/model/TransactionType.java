@@ -4,5 +4,6 @@ public enum TransactionType {
     SHOPPING,
     FRIEND_TRANSFER,
     DONATION,
-    SUBSCRIPTION
+    SUBSCRIPTION,
+    TOP_UP
 }

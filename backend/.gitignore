@@ -31,3 +31,22 @@ build/
 
 ### VS Code ###
 .vscode/
+
+application.yaml
+
+# Segreti locali: non devono mai finire nel repository
+.env
+.env.*
+application-local.yml
+application-local.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials.json
+service-account*.json
+*.secret
+*.log
+*.hprof

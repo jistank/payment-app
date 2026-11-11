@@ -1,0 +1,43 @@
+{
+  "directions": {
+    "SENT": "Inviato",
+    "RECEIVED": "Ricevuto",
+    "TOP_UP": "Ricarica"
+  },
+  "titles": {
+    "topUp": "Ricarica saldo",
+    "to": "A {{nickname}}",
+    "from": "Da {{nickname}}"
+  },
+  "fallbackUser": "utente",
+  "incoming": {
+    "requestFrom": "Richiesta di pagamento da {{nickname}}",
+    "badge": "Richiesta"
+  },
+  "detail": {
+    "title": "Dettagli transazione",
+    "aria": "Dettagli transazione",
+    "downloadPdf": "Scarica PDF"
+  },
+  "fields": {
+    "status": "Stato",
+    "type": "Tipo",
+    "direction": "Direzione",
+    "recipient": "Destinatario",
+    "amount": "Importo",
+    "currency": "Valuta",
+    "dateTime": "Data e ora"
+  },
+  "statuses": {
+    "COMPLETED": "Completata",
+    "PENDING": "In attesa",
+    "FAILED": "Non riuscita",
+    "CANCELLED": "Annullata",
+    "REFUNDED": "Rimborsata"
+  },
+  "notAvailable": "—",
+  "pdf": {
+    "title": "Dettagli transazione",
+    "generatedOn": "Generato il {{date}}"
+  }
+}

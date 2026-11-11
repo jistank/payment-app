@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "continue": "Continue",
+    "confirm": "Confirm",
+    "send": "Send",
+    "sendCode": "Send code",
+    "search": "Search"
+  },
+  "errors": {
+    "http": "Request failed (error {{status}})"
+  },
+  "ui": {
+    "loading": "Loading...",
+    "pleaseWait": "Please wait...",
+    "sending": "Sending...",
+    "adding": "Adding...",
+    "removing": "Removing...",
+    "deleting": "Deleting...",
+    "paymentCode": "Payment code",
+    "showCode": "Show code",
+    "hideCode": "Hide code",
+    "paymentCode": "Payment code"
+  },
+  "language": {
+    "select": "Select language, current: {{language}}",
+    "list": "Languages",
+    "comingSoon": "Coming soon"
+  }
+}

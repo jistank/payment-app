@@ -1,0 +1,165 @@
+{
+  "title": "Pannello di amministrazione",
+  "subtitle": "Gestisci gli utenti, monitora l'attività e consulta le azioni sensibili.",
+  "refresh": "Aggiorna",
+  "tabs": {
+    "users": "Utenti",
+    "transactions": "Transazioni",
+    "requests": "Richieste di pagamento",
+    "audit": "Registro audit"
+  },
+  "stats": {
+    "title": "Statistiche",
+    "totalUsers": "Utenti registrati",
+    "activeUsers": "Utenti attivi",
+    "suspendedUsers": "Utenti sospesi",
+    "totalTransactions": "Transazioni",
+    "transactionVolume": "Volume transazioni",
+    "topUpVolume": "Volume ricariche",
+    "pendingRequests": "Richieste in attesa",
+    "auditEvents": "Eventi audit"
+  },
+  "filters": {
+    "search": "Cerca",
+    "searchPlaceholder": "Nickname o email",
+    "status": "Stato",
+    "type": "Tipo",
+    "action": "Azione",
+    "all": "Tutti"
+  },
+  "statuses": {
+    "ALL": "Tutti",
+    "ACTIVE": "Attivo",
+    "SUSPENDED": "Sospeso",
+    "PENDING": "In attesa",
+    "PAID": "Pagata",
+    "DECLINED": "Rifiutata",
+    "COMPLETED": "Completata",
+    "FAILED": "Fallita",
+    "REFUNDED": "Rimborsata"
+  },
+  "types": {
+    "ALL": "Tutti",
+    "FRIEND_TRANSFER": "Trasferimento tra amici",
+    "SHOPPING": "Acquisto",
+    "DONATION": "Donazione",
+    "SUBSCRIPTION": "Abbonamento",
+    "TOP_UP": "Ricarica"
+  },
+  "roles": {
+    "USER": "Utente",
+    "ADMIN": "Amministratore"
+  },
+  "users": {
+    "title": "Utenti",
+    "count": "{{count}} utenti",
+    "empty": "Nessun utente corrisponde ai filtri.",
+    "balance": "Saldo",
+    "joined": "Iscritto",
+    "paymentCode": "Codice di pagamento",
+    "paymentCodeYes": "Configurato",
+    "paymentCodeNo": "Non configurato",
+    "view": "Visualizza",
+    "suspend": "Sospendi",
+    "reactivate": "Riattiva",
+    "delete": "Elimina",
+    "topUp": "Ricarica",
+    "locked": "Gli account amministratore non possono essere sospesi o eliminati.",
+    "errors": {
+      "load": "Impossibile caricare gli utenti",
+      "suspend": "Impossibile sospendere questo utente",
+      "reactivate": "Impossibile riattivare questo utente",
+      "delete": "Impossibile eliminare questo utente"
+    }
+  },
+  "transactions": {
+    "title": "Transazioni",
+    "count": "{{count}} transazioni",
+    "empty": "Nessuna transazione corrisponde ai filtri.",
+    "sender": "Mittente",
+    "receiver": "Destinatario",
+    "amount": "Importo",
+    "method": "Metodo",
+    "date": "Data",
+    "errors": {
+      "load": "Impossibile caricare le transazioni"
+    }
+  },
+  "requests": {
+    "title": "Richieste di pagamento",
+    "count": "{{count}} richieste di pagamento",
+    "empty": "Nessuna richiesta di pagamento corrisponde ai filtri.",
+    "requester": "Richiedente",
+    "payer": "Pagatore",
+    "amount": "Importo",
+    "note": "Nota",
+    "created": "Creata",
+    "resolved": "Risolta",
+    "errors": {
+      "load": "Impossibile caricare le richieste di pagamento"
+    }
+  },
+  "audit": {
+    "title": "Registro audit",
+    "count": "{{count}} eventi audit",
+    "empty": "Nessun evento audit corrisponde ai filtri.",
+    "actor": "Autore",
+    "action": "Azione",
+    "target": "Destinatario",
+    "details": "Dettagli",
+    "date": "Data",
+    "actions": {
+      "ALL": "Tutte le azioni",
+      "USER_SUSPENDED": "Utente sospeso",
+      "USER_REACTIVATED": "Utente riattivato",
+      "USER_DELETED": "Utente eliminato",
+      "MANUAL_TOP_UP": "Ricarica manuale"
+    },
+    "errors": {
+      "load": "Impossibile caricare il registro audit"
+    }
+  },
+  "confirm": {
+    "suspendTitle": "Sospendi utente",
+    "suspendDescription": "Sospendere \"{{nickname}}\"? L'account viene disconnesso subito e non potrà accedere finché non viene riattivato.",
+    "reactivateTitle": "Riattiva utente",
+    "reactivateDescription": "Riattivare \"{{nickname}}\"? L'account potrà accedere di nuovo.",
+    "deleteTitle": "Elimina utente",
+    "deleteDescription": "Eliminare definitivamente \"{{nickname}}\"? Contatti, richieste in attesa e account stesso vengono rimossi. L'operazione non può essere annullata.",
+    "cancel": "Annulla",
+    "confirm": "Conferma"
+  },
+  "topUp": {
+    "title": "Ricarica manuale",
+    "description": "Accredita il saldo di \"{{nickname}}\". L'operazione viene registrata nel registro audit.",
+    "amount": "Importo",
+    "amountPlaceholder": "0,00",
+    "note": "Nota (facoltativa)",
+    "notePlaceholder": "Motivo della ricarica",
+    "submit": "Aggiungi al saldo",
+    "success": "Ricarica completata. Nuovo saldo: {{balance}}.",
+    "errors": {
+      "amountInvalid": "Inserisci un importo maggiore di zero.",
+      "topUp": "Impossibile completare la ricarica"
+    }
+  },
+  "detail": {
+    "title": "Dettagli utente",
+    "nickname": "Nickname",
+    "email": "Email",
+    "role": "Ruolo",
+    "accountType": "Tipo di account",
+    "business": "Aziendale",
+    "personal": "Personale",
+    "balance": "Saldo",
+    "paymentCode": "Codice di pagamento",
+    "status": "Stato",
+    "createdAt": "Registrato il",
+    "close": "Chiudi"
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "notAvailable": "—",
+    "unknown": "Sconosciuto"
+  }
+}

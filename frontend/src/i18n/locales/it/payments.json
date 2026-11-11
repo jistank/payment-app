@@ -1,0 +1,50 @@
+{
+  "form": {
+    "payTitle": "Paga",
+    "requestTitle": "Richiedi denaro",
+    "payDescription": "Invia denaro dal tuo saldo a {{nickname}}.",
+    "payDescriptionGeneric": "Invia denaro dal tuo saldo a un altro utente.",
+    "requestDescription": "Chiedi a {{nickname}} di inviarti denaro.",
+    "requestDescriptionGeneric": "Chiedi a un altro utente di inviarti denaro.",
+    "payAria": "Paga un utente",
+    "requestAria": "Richiedi denaro"
+  },
+  "fields": {
+    "nickname": "Nickname utente",
+    "nicknamePlaceholder": "Nickname",
+    "amount": "Importo ($)",
+    "paymentType": "Tipo di pagamento",
+    "note": "Nota (facoltativa)",
+    "notePlaceholder": "A cosa serve questa richiesta?"
+  },
+  "types": {
+    "FRIEND_TRANSFER": "Trasferimento tra amici",
+    "SHOPPING": "Acquisti",
+    "DONATION": "Donazione",
+    "SUBSCRIPTION": "Abbonamento",
+    "TOP_UP": "Ricarica"
+  },
+  "errors": {
+    "nicknameRequired": "Inserisci il nickname dell'utente.",
+    "amountInvalid": "Inserisci un importo maggiore di zero.",
+    "paymentCodeSetup": "Imposta il codice di pagamento in Profilo → Codice prima di inviare denaro.",
+    "paymentCodeLength": "Inserisci il tuo codice di pagamento di 6 cifre.",
+    "userNotFound": "L'utente non esiste.",
+    "paymentFailed": "Impossibile completare il pagamento",
+    "requestFailed": "Impossibile inviare la richiesta",
+    "processFailed": "Impossibile elaborare la richiesta di pagamento"
+  },
+  "codeStep": "Inserisci il tuo codice di pagamento per inviare <strong>{{amount}}</strong> a <strong>{{nickname}}</strong>.",
+  "buttons": {
+    "pay": "Paga",
+    "sendRequest": "Invia richiesta",
+    "confirmPayment": "Conferma pagamento",
+    "sendMoney": "Invia denaro",
+    "decline": "Rifiuta"
+  },
+  "incoming": {
+    "title": "Richiesta di pagamento",
+    "aria": "Richiesta di pagamento",
+    "description": "{{nickname}} ti sta chiedendo denaro."
+  }
+}

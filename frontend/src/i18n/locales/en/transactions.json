@@ -1,0 +1,43 @@
+{
+  "directions": {
+    "SENT": "Sent",
+    "RECEIVED": "Received",
+    "TOP_UP": "Top up"
+  },
+  "titles": {
+    "topUp": "Balance top up",
+    "to": "To {{nickname}}",
+    "from": "From {{nickname}}"
+  },
+  "fallbackUser": "user",
+  "incoming": {
+    "requestFrom": "Payment request from {{nickname}}",
+    "badge": "Request"
+  },
+  "detail": {
+    "title": "Transaction details",
+    "aria": "Transaction details",
+    "downloadPdf": "Download PDF"
+  },
+  "fields": {
+    "status": "Status",
+    "type": "Type",
+    "direction": "Direction",
+    "recipient": "Recipient",
+    "amount": "Amount",
+    "currency": "Currency",
+    "dateTime": "Date & time"
+  },
+  "statuses": {
+    "COMPLETED": "Completed",
+    "PENDING": "Pending",
+    "FAILED": "Failed",
+    "CANCELLED": "Cancelled",
+    "REFUNDED": "Refunded"
+  },
+  "notAvailable": "—",
+  "pdf": {
+    "title": "Transaction details",
+    "generatedOn": "Generated on {{date}}"
+  }
+}

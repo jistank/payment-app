@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "back": "Indietro",
+    "continue": "Continua",
+    "confirm": "Conferma",
+    "send": "Invia",
+    "sendCode": "Invia codice",
+    "search": "Cerca"
+  },
+  "errors": {
+    "http": "Richiesta non riuscita (errore {{status}})"
+  },
+  "ui": {
+    "loading": "Caricamento...",
+    "pleaseWait": "Attendi...",
+    "sending": "Invio in corso...",
+    "adding": "Aggiunta in corso...",
+    "removing": "Rimozione in corso...",
+    "deleting": "Eliminazione in corso...",
+    "paymentCode": "Codice di pagamento",
+    "showCode": "Mostra codice",
+    "hideCode": "Nascondi codice",
+    "paymentCode": "Codice di pagamento"
+  },
+  "language": {
+    "select": "Seleziona la lingua, attuale: {{language}}",
+    "list": "Lingue",
+    "comingSoon": "In arrivo"
+  }
+}

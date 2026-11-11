@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Home",
+    "contacts": "Contatti",
+    "admin": "Admin",
+    "me": "Profilo",
+    "logout": "Esci"
+  },
+  "home": {
+    "greeting": "Ciao, {{nickname}}",
+    "availableBalance": "Saldo disponibile",
+    "pay": "Paga",
+    "receive": "Ricevi",
+    "transactions": "Transazioni",
+    "loadingTransactions": "Caricamento transazioni...",
+    "noTransactions": "Nessuna transazione.",
+    "errors": {
+      "loadTransactions": "Impossibile caricare le transazioni",
+      "loadRequests": "Impossibile caricare le richieste di pagamento"
+    }
+  },
+  "notices": {
+    "paymentSent": "Pagamento di {{amount}} inviato a \"{{nickname}}\".",
+    "requestSent": "Richiesta di pagamento di {{amount}} inviata a \"{{nickname}}\".",
+    "paymentAccepted": "Pagamento inviato a \"{{nickname}}\".",
+    "requestDeclined": "Richiesta di pagamento da \"{{nickname}}\" rifiutata.",
+    "contactAdded": "Contatto \"{{nickname}}\" aggiunto.",
+    "contactRemoved": "Contatto \"{{nickname}}\" rimosso."
+  },
+  "contacts": {
+    "title": "Contatti",
+    "subtitle": "Tutti i tuoi contatti salvati.",
+    "addContact": "Aggiungi contatto",
+    "removeContact": "Rimuovi contatto",
+    "searchPlaceholder": "Cerca contatti",
+    "transactionsTitle": "Transazioni del contatto",
+    "transactionsAria": "Transazioni con {{nickname}}",
+    "pay": "Paga",
+    "request": "Richiedi",
+    "noTransactionsWith": "Nessuna transazione con {{nickname}}.",
+    "transactionSummary_one": "{{count}} transazione con {{nickname}}.",
+    "transactionSummary_other": "{{count}} transazioni con {{nickname}}.",
+    "loading": "Caricamento contatti...",
+    "empty": "Nessun contatto. Usa il pulsante + per aggiungerne uno.",
+    "emptySearch": "Nessun contatto corrisponde alla ricerca.",
+    "errors": {
+      "nicknameRequired": "Inserisci il nickname del contatto",
+      "notRegistered": "Nessun utente registrato trovato con questo nickname.",
+      "notFound": "Nessun contatto trovato con questo nickname.",
+      "load": "Impossibile caricare i contatti",
+      "add": "Impossibile aggiungere il contatto",
+      "remove": "Impossibile rimuovere il contatto"
+    },
+    "form": {
+      "nicknameLabel": "Nickname del contatto",
+      "nicknamePlaceholder": "es. mario_rossi",
+      "addTitle": "Aggiungi contatto",
+      "addDescription": "Inserisci il nickname di un utente registrato.",
+      "addSubmit": "Aggiungi contatto",
+      "removeTitle": "Rimuovi contatto",
+      "removeDescription": "Inserisci il nickname del contatto che vuoi rimuovere.",
+      "removeSubmit": "Rimuovi"
+    }
+  },
+  "me": {
+    "title": "Il mio account",
+    "accountInformation": "Informazioni account",
+    "nickname": "Nickname",
+    "email": "Email",
+    "accountType": "Tipo di account",
+    "business": "Aziendale",
+    "personal": "Personale",
+    "memberSince": "Membro dal",
+    "language": "Lingua",
+    "languageCurrent": "Attuale: {{language}}",
+    "charge": "Ricarica",
+    "chargeDescription": "Aggiungi denaro al tuo saldo",
+    "changePassword": "Cambia password",
+    "changePasswordDescription": "Aggiorna la password del tuo account",
+    "qr": "QR",
+    "qrDescription": "Il tuo codice QR di ricezione",
+    "theme": "Tema",
+    "themeCurrent": "Attuale: {{mode}}",
+    "changeCode": "Cambia codice",
+    "changeCodeDescription": "Cambia il tuo codice di pagamento di 6 cifre",
+    "setCodeDescription": "Imposta il tuo codice di pagamento di 6 cifre",
+    "deleteAccount": "Elimina account",
+    "deleteAccountDescription": "Rimuovi definitivamente il tuo account"
+  }
+}

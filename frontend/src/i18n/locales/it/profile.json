@@ -1,0 +1,102 @@
+{
+  "charge": {
+    "title": "Ricarica",
+    "description": "Aggiungi denaro al tuo saldo.",
+    "currentBalance": "Saldo attuale",
+    "amount": "Importo",
+    "amountPlaceholder": "0,00",
+    "quickAmounts": "Importi rapidi",
+    "submit": "Aggiungi al saldo",
+    "success": "{{amount}} aggiunti al tuo saldo. Nuovo saldo: {{balance}}.",
+    "errors": {
+      "amountInvalid": "Inserisci un importo maggiore di zero.",
+      "charge": "Impossibile ricaricare il saldo"
+    }
+  },
+  "changePassword": {
+    "title": "Cambia password",
+    "description": "Scegli una nuova password per il tuo account.",
+    "current": "Password attuale",
+    "new": "Nuova password",
+    "confirm": "Conferma nuova password",
+    "submit": "Aggiorna password",
+    "success": "Password aggiornata con successo.",
+    "errors": {
+      "mismatch": "Le nuove password non coincidono.",
+      "change": "Impossibile cambiare la password"
+    }
+  },
+  "logout": {
+    "title": "Esci",
+    "description": "Sei sicuro di voler uscire?",
+    "confirm": "Sì"
+  },
+  "paymentCode": {
+    "title": "Cambia codice",
+    "description": "Verifica la tua identità con un codice inviato via email, poi scegli un nuovo codice di 6 cifre.",
+    "nickname": "Nickname",
+    "accountPassword": "Password dell'account",
+    "verificationCode": "Codice di verifica",
+    "newCode": "Nuovo codice di pagamento",
+    "confirmNewCode": "Conferma nuovo codice di pagamento",
+    "submit": "Cambia codice",
+    "notices": {
+      "sent": "Un codice di verifica di 6 cifre è stato inviato alla tua email.",
+      "success": "Codice di pagamento cambiato con successo."
+    },
+    "errors": {
+      "credentials": "Inserisci nickname e password.",
+      "verificationCode": "Inserisci il codice di verifica di 6 cifre.",
+      "codeLength": "Il nuovo codice deve essere di esattamente 6 cifre.",
+      "mismatch": "I codici non coincidono.",
+      "send": "Impossibile inviare il codice di verifica",
+      "change": "Impossibile cambiare il codice di pagamento"
+    }
+  },
+  "qr": {
+    "title": "Il tuo codice QR di ricezione",
+    "description": "Mostra questo codice per ricevere denaro. Resta sempre lo stesso.",
+    "receiveDescription": "Fai scansionare questo codice agli altri per ricevere denaro.",
+    "generating": "Generazione codice QR...",
+    "unavailable": "Codice QR non disponibile",
+    "alt": "Codice QR di ricezione",
+    "error": "Impossibile generare il codice QR"
+  },
+  "setCode": {
+    "title": "Imposta il codice di pagamento",
+    "description": "Ti serve un codice di pagamento di 6 cifre per inviare denaro. Impostalo ora per continuare.",
+    "code": "Imposta codice di pagamento",
+    "confirm": "Conferma codice di pagamento",
+    "submit": "Imposta codice di pagamento",
+    "errors": {
+      "length": "Il codice di pagamento deve essere di esattamente 6 cifre.",
+      "mismatch": "I codici non coincidono.",
+      "set": "Impossibile impostare il codice di pagamento"
+    }
+  },
+  "language": {
+    "title": "Lingua",
+    "description": "Scegli la lingua dell'app."
+  },
+  "theme": {
+    "title": "Tema",
+    "description": "Scegli l'aspetto dell'app.",
+    "light": "Tema chiaro",
+    "dark": "Tema scuro"
+  },
+  "deleteAccount": {
+    "title": "Elimina account",
+    "descriptionForm": "Conferma la tua identità per continuare.",
+    "descriptionConfirm": "Questa azione non può essere annullata.",
+    "nickname": "Nickname",
+    "paymentCode": "Codice di pagamento",
+    "continue": "Continua",
+    "confirm": "Sì, elimina",
+    "confirmText": "Sei sicuro di voler eliminare l'account <strong>{{nickname}}</strong>? Tutti i tuoi dati andranno persi.",
+    "errors": {
+      "nicknameMismatch": "Il nickname non corrisponde al tuo account.",
+      "codeLength": "Inserisci il tuo codice di pagamento di 6 cifre.",
+      "delete": "Impossibile eliminare l'account"
+    }
+  }
+}

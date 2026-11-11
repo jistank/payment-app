@@ -1,0 +1,102 @@
+{
+  "charge": {
+    "title": "Charge",
+    "description": "Add money to your balance.",
+    "currentBalance": "Current balance",
+    "amount": "Amount",
+    "amountPlaceholder": "0.00",
+    "quickAmounts": "Quick amounts",
+    "submit": "Add to balance",
+    "success": "{{amount}} added to your balance. New balance: {{balance}}.",
+    "errors": {
+      "amountInvalid": "Enter an amount greater than zero.",
+      "charge": "Unable to add money to your balance"
+    }
+  },
+  "changePassword": {
+    "title": "Change password",
+    "description": "Choose a new password for your account.",
+    "current": "Current password",
+    "new": "New password",
+    "confirm": "Confirm new password",
+    "submit": "Update password",
+    "success": "Password updated successfully.",
+    "errors": {
+      "mismatch": "The new passwords do not match.",
+      "change": "Unable to change password"
+    }
+  },
+  "logout": {
+    "title": "Log out",
+    "description": "Are you sure you want to log out?",
+    "confirm": "Yes"
+  },
+  "paymentCode": {
+    "title": "Change code",
+    "description": "Verify your identity with a code sent to your email, then choose a new 6-digit code.",
+    "nickname": "Nickname",
+    "accountPassword": "Account password",
+    "verificationCode": "Verification code",
+    "newCode": "New payment code",
+    "confirmNewCode": "Confirm new payment code",
+    "submit": "Change code",
+    "notices": {
+      "sent": "A 6-digit verification code has been sent to your email.",
+      "success": "Payment code changed successfully."
+    },
+    "errors": {
+      "credentials": "Enter your nickname and password.",
+      "verificationCode": "Enter the 6-digit verification code.",
+      "codeLength": "The new code must be exactly 6 digits.",
+      "mismatch": "The codes do not match.",
+      "send": "Unable to send the verification code",
+      "change": "Unable to change the payment code"
+    }
+  },
+  "qr": {
+    "title": "Your receive QR code",
+    "description": "Show this code to receive money. It always stays the same.",
+    "receiveDescription": "Let others scan this code to send you money.",
+    "generating": "Generating QR code...",
+    "unavailable": "QR code unavailable",
+    "alt": "Receive QR code",
+    "error": "Unable to generate the QR code"
+  },
+  "setCode": {
+    "title": "Set your payment code",
+    "description": "You need a 6-digit payment code to send money. Set it now to continue.",
+    "code": "Set payment code",
+    "confirm": "Confirm payment code",
+    "submit": "Set payment code",
+    "errors": {
+      "length": "The payment code must be exactly 6 digits.",
+      "mismatch": "The codes do not match.",
+      "set": "Unable to set the payment code"
+    }
+  },
+  "language": {
+    "title": "Language",
+    "description": "Choose the language of the app."
+  },
+  "theme": {
+    "title": "Theme",
+    "description": "Choose how the app looks.",
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "deleteAccount": {
+    "title": "Delete account",
+    "descriptionForm": "Confirm your identity to continue.",
+    "descriptionConfirm": "This action cannot be undone.",
+    "nickname": "Nickname",
+    "paymentCode": "Payment code",
+    "continue": "Continue",
+    "confirm": "Yes, delete",
+    "confirmText": "Are you sure you want to delete the account <strong>{{nickname}}</strong>? All your data will be lost.",
+    "errors": {
+      "nicknameMismatch": "The nickname does not match your account.",
+      "codeLength": "Enter your 6-digit payment code.",
+      "delete": "Unable to delete the account"
+    }
+  }
+}

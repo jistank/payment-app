@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "login": "Login"
+  },
+  "hero": {
+    "subtitle": "Pay quickly all over the world"
+  },
+  "platforms": {
+    "contact": "Contact us",
+    "help": "Help center",
+    "newsroom": "Newsroom"
+  },
+  "features": {
+    "globalTransactions": {
+      "title": "Global transactions",
+      "description": "Send money anywhere in the world in seconds, with transparent fees and no hidden costs."
+    },
+    "moneyExchange": {
+      "title": "Money exchange",
+      "description": "Exchange money in every currency at real rates and low cost, directly inside your account."
+    },
+    "gift": {
+      "title": "Get your gift",
+      "description": "Sign up as a new member and receive a welcome gift to start paying right away."
+    },
+    "qrPayment": {
+      "title": "QR payment",
+      "description": "Pay with a QR code in every store that supports it, and send money to friends with a single scan."
+    },
+    "business": {
+      "title": "Business",
+      "description": "Get the merchant payment method and accept payments from your customers anywhere."
+    }
+  },
+  "footer": {
+    "about": "About us",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2026 Qpay. All rights reserved."
+  }
+}

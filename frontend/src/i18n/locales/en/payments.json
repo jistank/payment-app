@@ -1,0 +1,50 @@
+{
+  "form": {
+    "payTitle": "Pay",
+    "requestTitle": "Request money",
+    "payDescription": "Send money from your balance to {{nickname}}.",
+    "payDescriptionGeneric": "Send money from your balance to another user.",
+    "requestDescription": "Ask {{nickname}} to send you money.",
+    "requestDescriptionGeneric": "Ask another user to send you money.",
+    "payAria": "Pay a user",
+    "requestAria": "Request money"
+  },
+  "fields": {
+    "nickname": "User nickname",
+    "nicknamePlaceholder": "Nickname",
+    "amount": "Amount ($)",
+    "paymentType": "Payment type",
+    "note": "Note (optional)",
+    "notePlaceholder": "What is this request for?"
+  },
+  "types": {
+    "FRIEND_TRANSFER": "Friend transfer",
+    "SHOPPING": "Shopping",
+    "DONATION": "Donation",
+    "SUBSCRIPTION": "Subscription",
+    "TOP_UP": "Top up"
+  },
+  "errors": {
+    "nicknameRequired": "Enter the user nickname.",
+    "amountInvalid": "Enter an amount greater than zero.",
+    "paymentCodeSetup": "Set up your payment code in Me → Code before sending money.",
+    "paymentCodeLength": "Enter your 6-digit payment code.",
+    "userNotFound": "User does not exist.",
+    "paymentFailed": "Unable to complete the payment",
+    "requestFailed": "Unable to send the request",
+    "processFailed": "Unable to process the payment request"
+  },
+  "codeStep": "Enter your payment code to send <strong>{{amount}}</strong> to <strong>{{nickname}}</strong>.",
+  "buttons": {
+    "pay": "Pay",
+    "sendRequest": "Send request",
+    "confirmPayment": "Confirm payment",
+    "sendMoney": "Send money",
+    "decline": "Decline"
+  },
+  "incoming": {
+    "title": "Payment request",
+    "aria": "Payment request",
+    "description": "{{nickname}} is asking you for money."
+  }
+}

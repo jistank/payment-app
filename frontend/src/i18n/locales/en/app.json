@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Home",
+    "contacts": "Contacts",
+    "admin": "Admin",
+    "me": "Me",
+    "logout": "Logout"
+  },
+  "home": {
+    "greeting": "Hi, {{nickname}}",
+    "availableBalance": "Available balance",
+    "pay": "Pay",
+    "receive": "Receive",
+    "transactions": "Transactions",
+    "loadingTransactions": "Loading transactions...",
+    "noTransactions": "No transactions yet.",
+    "errors": {
+      "loadTransactions": "Unable to load transactions",
+      "loadRequests": "Unable to load payment requests"
+    }
+  },
+  "notices": {
+    "paymentSent": "Payment of {{amount}} sent to \"{{nickname}}\".",
+    "requestSent": "Payment request of {{amount}} sent to \"{{nickname}}\".",
+    "paymentAccepted": "Payment sent to \"{{nickname}}\".",
+    "requestDeclined": "Payment request from \"{{nickname}}\" declined.",
+    "contactAdded": "Contact \"{{nickname}}\" added.",
+    "contactRemoved": "Contact \"{{nickname}}\" removed."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "All your saved contacts.",
+    "addContact": "Add contact",
+    "removeContact": "Remove contact",
+    "searchPlaceholder": "Search contacts",
+    "transactionsTitle": "Contact transactions",
+    "transactionsAria": "Transactions with {{nickname}}",
+    "pay": "Pay",
+    "request": "Request",
+    "noTransactionsWith": "No transactions with {{nickname}} yet.",
+    "transactionSummary_one": "{{count}} transaction with {{nickname}}.",
+    "transactionSummary_other": "{{count}} transactions with {{nickname}}.",
+    "loading": "Loading contacts...",
+    "empty": "No contacts yet. Use the + button to add one.",
+    "emptySearch": "No contacts match your search.",
+    "errors": {
+      "nicknameRequired": "Enter a contact nickname",
+      "notRegistered": "No registered user found with that nickname.",
+      "notFound": "No contact found with that nickname.",
+      "load": "Unable to load contacts",
+      "add": "Unable to add contact",
+      "remove": "Unable to remove contact"
+    },
+    "form": {
+      "nicknameLabel": "Contact nickname",
+      "nicknamePlaceholder": "e.g. mario_rossi",
+      "addTitle": "Add contact",
+      "addDescription": "Enter the nickname of a registered user.",
+      "addSubmit": "Add contact",
+      "removeTitle": "Remove contact",
+      "removeDescription": "Enter the nickname of the contact you want to remove.",
+      "removeSubmit": "Remove"
+    }
+  },
+  "me": {
+    "title": "My account",
+    "accountInformation": "Account information",
+    "nickname": "Nickname",
+    "email": "Email",
+    "accountType": "Account type",
+    "business": "Business",
+    "personal": "Personal",
+    "memberSince": "Member since",
+    "language": "Language",
+    "languageCurrent": "Current: {{language}}",
+    "charge": "Charge",
+    "chargeDescription": "Add money to your balance",
+    "changePassword": "Change password",
+    "changePasswordDescription": "Update your account password",
+    "qr": "QR",
+    "qrDescription": "Your receive QR code",
+    "theme": "Theme",
+    "themeCurrent": "Current: {{mode}}",
+    "changeCode": "Change code",
+    "changeCodeDescription": "Change your 6-digit payment code",
+    "setCodeDescription": "Set your 6-digit payment code",
+    "deleteAccount": "Delete account",
+    "deleteAccountDescription": "Permanently remove your account"
+  }
+}
